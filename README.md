@@ -36,6 +36,6 @@ On Windows use `\venv\\Scripts\\activate\`
 
 Set the following environment variables:  
 
-ES\_EMBEDDING\_INDEX: The name of the Elasticsearch index for embeddings.
-
-TOKENIZER\_LOCATION: The location of the tokenizer model.
+MODEL_LOCATION: Path to the model directory 
+ES_EMBEDDING_INDEX_LENGTH: Size of any index in elasticsearch
+EMBEDDING_INDEX: The name of the index we will embed docs into
